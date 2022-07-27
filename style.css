@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'immortal';
+    src: url('./IMMORTAL.ttf')
+}
+
+html {
+    background-color: green;
+    color: white;
+    font-family: 'immortal', Arial, Helvetica, sans-serif;
+}
+select {
+    font-size: 3rem;
+    background-color: darkgreen;
+    text-align: center;
+    width: 80vw;
+    color: white;
+    margin: 0 auto;
+}
+option {
+    font-size: 5rem;
+    text-align: center;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+p {
+    text-align: center;
+    font-size: 2em;
+}
+h2,h3 {
+    margin: 2rem auto;
+}
+h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+h1 {
+    font-size: 5rem;
+    text-align: center;
+}
